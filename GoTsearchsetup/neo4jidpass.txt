@@ -1,0 +1,15 @@
+Neo4j Auradb
+
+id: neo4j
+password: VFLNhvEccOtCymemeMwPiyaghv7sd78-4UwLSLWBdpE
+
+neo4j+s://49c116b0.databases.neo4j.io:7687
+
+mongodb
+
+id: sa3883
+password: Dkstmdwns011001
+
+
+client = pymongo.MongoClient("mongodb+srv://sa3883:<password>@cluster0.2xeqe.mongodb.net/myFirstDatabase?retryWrites=true&w=majority", server_api=ServerApi('1'))
+db = client.test
